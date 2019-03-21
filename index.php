@@ -31,8 +31,8 @@ include('config.php');
         // - paypal.FUNDING.ELV
 
         funding: {
-            allowed: [ paypal.FUNDING.CARD, paypal.FUNDING.CREDIT, paypal.FUNDING.IDEAL ],
-            disallowed: [ ]
+            allowed: [ paypal.FUNDING.CARD],
+            disallowed: [paypal.FUNDING.CREDIT ]
         },
 
             // Show the buyer a 'Pay Now' button in the checkout flow
