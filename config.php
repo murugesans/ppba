@@ -9,20 +9,14 @@
 
     //PayPal REST API endpoints
     define("SANDBOX_ENDPOINT", "https://api.sandbox.paypal.com");
-    //define("SANDBOX_ENDPOINT", "https://api.stage2d0515.qa.paypal.com:11888");
     define("LIVE_ENDPOINT", "https://api.paypal.com");
 
     //Merchant ID
-    define("MERCHANT_ID","E9GCL5FX4TU2C");
+    define("MERCHANT_ID","");
 
-    //PayPal REST App SG(muru_sgbus@pp.com) SANDBOX Client Id and Client Secret
-    define("SANDBOX_CLIENT_ID" , "AYPRSHXvddDzYq36L_Ya3Um0zMdKQ-RdYKvmq9PW-x5Nu1FWTAzoH95EHE5kA4rjzvmi-oT5EWR_caDu");
-    define("SANDBOX_CLIENT_SECRET", "ED91SXDfqjwbOmEU9Op8O_k6ymKSA8fjtVuKcu1Xd4JNEtjleAh7ouwtXGYDna8-uSrBErDDE6Y7tSFF");
-
-	
-	//PayPal REST App IN Stage Client Id and Client Secret
-    //define("SANDBOX_CLIENT_ID" , "AXN-PpAoujGdz8DBq6s-wEGM0RRKOJWvFPBgPt5faKmk20RgqsoE2CghPOGlHf_F4jWNKJVaz6UHyhTy");
-   // define("SANDBOX_CLIENT_SECRET", "EBTs6Y8jM99w_FhZW8C6hK-rDsRUE3A2SA7Z6Yw7C1ZPe_4NBtsdWbmiH012AMQ17glH_cEZd1AGyIpe");
+    //PayPal REST App SANDBOX Client Id and Client Secret
+    define("SANDBOX_CLIENT_ID" , "");
+    define("SANDBOX_CLIENT_SECRET", "");
 
     //Environments -Sandbox and Production/Live
     define("SANDBOX_ENV", "sandbox");
